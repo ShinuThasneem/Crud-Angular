@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #212529; */
+    text-align: left;
+    background-color: rgba(82,108,245,0.64);
+    color: rgb(235, 235, 7);
+
+  }
+  #navb{
+    color: rgb(201, 201, 201);
+  }
+.btn{
+  color: white;
+  background-color: rgba(51, 83, 112, 0.605);
+
+}
+  
+  #navcol-1 {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-dark .navbar-nav .nav-link {
+      float: right;
+    
+    }
+   
+    .navbar-brand{
+      font-size: 18px;
+    }
+  }
